@@ -12,6 +12,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 50px;
+    height: 130vh;
 }
 
 .logo {
@@ -24,6 +25,10 @@ body {
     justify-content: center;
     font-size: 24px;
     gap:10px;
+}
+
+.title h1 {
+    text-align: center;
 }
 
 .download {
@@ -55,4 +60,8 @@ body {
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
+}
+
+.patches ul li {
+    font-size: 20px;
 }
